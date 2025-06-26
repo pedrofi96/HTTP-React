@@ -1,0 +1,24 @@
+{
+  "produtos": [
+    {
+      "id": "2",
+      "name": "Calça",
+      "preco": 150
+    },
+    {
+      "id": "3",
+      "name": "tenis",
+      "preco": 250
+    },
+    {
+      "id": "297e",
+      "name": "teclado",
+      "preco": "110"
+    },
+    {
+      "id": "bf5c",
+      "name": "pudim",
+      "preco": "15,00"
+    }
+  ]
+}
