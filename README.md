@@ -1,78 +1,137 @@
-# Getting Started with Create React App
+# CRUD de Produtos com React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aplicação web desenvolvida em React para gerenciamento de produtos através de operações CRUD (Create, Read, Update e Delete). O projeto consome uma API REST simulada utilizando JSON Server, permitindo cadastrar, visualizar, editar e remover produtos de forma dinâmica.
 
-## Available Scripts
+## Tecnologias Utilizadas
 
-In the project directory, you can run:
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* React Hooks
+* JSON Server
+* REST API
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Create (Criar)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Cadastro de novos produtos através de formulário.
 
-### `npm test`
+### Read (Ler)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Listagem de produtos cadastrados.
+* Consulta e visualização de informações dos produtos.
 
-### `npm run build`
+### Update (Atualizar)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Edição de produtos existentes.
+* Atualização automática dos dados na interface.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Delete (Excluir)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Remoção de produtos cadastrados.
+* Atualização da lista em tempo real após exclusão.
 
-### `npm run eject`
+## Objetivo do Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Este projeto foi desenvolvido para praticar conceitos fundamentais do desenvolvimento Front-End, incluindo:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Operações CRUD completas
+* Consumo de APIs REST
+* 
+* Gerenciamento de estado com React Hooks
+* Manipulação de formulários
+* Integração entre Front-End e Back-End simulado
+* Atualização dinâmica da interface
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Instalação
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Clone o repositório:
 
-## Learn More
+```bash
+git clone <url-do-repositorio>
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Acesse a pasta do projeto:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+cd nome-do-projeto
+```
 
-### Code Splitting
+Instale as dependências:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+```
 
-### Analyzing the Bundle Size
+ou
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm i
+```
 
-### Making a Progressive Web App
+## Executando o Banco de Dados Simulado
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+O projeto utiliza o JSON Server para simular uma API REST através de um arquivo JSON.
 
-### Advanced Configuration
+No terminal execute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```bash
+npm run server
+```
 
-### Deployment
+Este comando iniciará o servidor responsável por armazenar e fornecer os dados utilizados pela aplicação.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Executando a Aplicação
 
-### `npm run build` fails to minify
+Abra um novo terminal mantendo o servidor em execução e execute:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm start
+```
 
-### `Portugues:`
+Caso a porta 3000 esteja em uso, o React exibirá a mensagem:
 
-para começar o projeto abra um terminal e de o comando "npm run server"
-depois abra outro terminal e inicie o react normalmente com "npm start",
-espere o react informar ue a porta 3000 já está em uso perguntar e se gostaria de abrir em outra porta,
-confirme com "y".
-o projeto deve abrir em outra porta disponivel e avisar qual.
+```bash
+Would you like to run the app on another port instead? (Y/n)
+```
+
+Digite:
+
+```bash
+Y
+```
+
+e pressione Enter para iniciar a aplicação em uma porta disponível.
+
+## Ordem Correta de Execução
+
+### Terminal 1
+
+```bash
+npm run server
+```
+
+### Terminal 2
+
+```bash
+npm start
+```
+
+## Competências Demonstradas
+
+* React.js
+* JavaScript ES6+
+* CRUD Completo
+* React Hooks
+* Consumo de API REST
+* JSON Server
+* Gerenciamento de Estado
+* Componentização
+* Manipulação de Formulários
+* Git e GitHub
+
+## Autor
+
+Pedro Filipe Tavares Baptista
